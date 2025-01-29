@@ -2,9 +2,7 @@
 
 ### Overview
 
-This project implements a machine learning model to predict whether a delivery will arrive on time based on various customer, product, and shipment-related features. The model uses a Random Forest Classifier trained on real-world delivery data to provide accurate predictions.
-
-The primary goal of this project is to empower logistics and supply chain teams to optimize operations and improve customer satisfaction by identifying potential delays in advance.
+This project aims to develop a machine learning model to predict whether an order will be delivered on time based on customer, product, and shipment-related features. The model is built using a Random Forest Classifier and involves preprocessing data, handling class imbalance, feature selection, and hyperparameter tuning to optimize performance.
 
 ### Dataset
 
@@ -44,12 +42,12 @@ This data includes the following features:
 
 ### Results
 
-- Accuracy: 67%
+- Accuracy: 66%
 - Precision (Class 1): 79%
-- Recall (Class 1): 61%
-- F1-Score (Class 1): 69%
-- ROC-AUC: 0.75
+- Recall (Class 1): 59%
+- F1-Score (Class 1): 68%
+- ROC-AUC: 0.74
 
 ### Source
 
-https://www.kaggle.com/datasets/willianoliveiragibin/on-time-delivery/data
+Dataset: [On Time Delivery Dataset](https://www.kaggle.com/datasets/willianoliveiragibin/on-time-delivery/data)
